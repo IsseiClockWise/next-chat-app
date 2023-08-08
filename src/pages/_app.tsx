@@ -6,7 +6,7 @@ import { Header } from '@src/component/Header/Header'
 
 initializeFirebaseApp()
 function MyApp({ Component, pageProps }: AppProps) {
-  return(
+  return (
     <ChakraProvider>
       <AuthProvider>
         <Header />
